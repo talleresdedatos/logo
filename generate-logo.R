@@ -16,6 +16,7 @@ hex_logo <- hexagon_data %>%
     theme_void() +
     theme(
         plot.background = element_rect(fill = NA, color = NA), 
+        plot.margin = margin(1, 1, 1, 1, "cm")
     )
 
 size <- function(escala) {
